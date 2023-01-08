@@ -2,7 +2,7 @@ name: terraform-destroy
 on:
   workflow_dispatch:
 
-prmissions:
+permissions:
   id-token: write
   contents: read
 

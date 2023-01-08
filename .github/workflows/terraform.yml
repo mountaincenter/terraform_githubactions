@@ -3,7 +3,7 @@ name: terraform apply test by OIDC
 on:
   pull_request:
     branches:
-      - master
+      - main
     types: [closed]
 permissions:
   id-token: write
